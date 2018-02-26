@@ -23,6 +23,7 @@ body {
     align-content: center;
     font-size: 20pt;
     padding-top: 15%;
+    
     /* background-image: url(/img/blurbox.png); */
     /* background-repeat: no-repeat; */
     /* background-position: center; */
@@ -31,7 +32,22 @@ body {
 
 }
 
-#menu a { 
+a { 
     color: aliceblue;
-    text-decoration-line: none 
+    text-decoration-line: none;
     }
+
+:hover{color: aquamarine;}
+
+.red{color: rgb(184, 0, 0);}
+a :hover .red {color: rgb(255, 255, 255);}
+
+
+.yellow{color: darkgoldenrod;}
+.yellow :hover{color: rgb(75, 55, 5);}
+
+.orange{color: orange;}
+.orange :hover{color: orange;}
+
+.green{color: green}
+.green :hover{color: rgb(0, 71, 0)}
