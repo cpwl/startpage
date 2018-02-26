@@ -1,0 +1,37 @@
+
+li {
+    list-style-type: none;
+}
+
+.system-font-stack {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+
+
+
+body {
+    background: #ffffff url("img/bg.jpg") no-repeat right top;
+    background-size: cover;
+}
+
+.centre {
+    text-align: center;
+}
+
+#menu{
+    align-content: center;
+    font-size: 20pt;
+    padding-top: 15%;
+    /* background-image: url(/img/blurbox.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: 200px 350px;  */
+    /* position: relative; */
+
+}
+
+#menu a { 
+    color: aliceblue;
+    text-decoration-line: none 
+    }
